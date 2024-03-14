@@ -1,0 +1,27 @@
+.bottom-menu {
+  height: 40px;
+  border: #828588 solid thin;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 10px;
+  padding-right: 10px;
+}
+
+.selected-container {
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+  margin-left: -30px;
+}
+
+.border-style {
+  border: #c4cbd1 solid thin;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 10px;
+  padding: 4px;
+}

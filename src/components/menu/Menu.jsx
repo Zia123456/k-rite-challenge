@@ -1,4 +1,4 @@
-import React from 'react';
+import './menu.css';
 import { FaSortAlphaDown } from 'react-icons/fa';
 import { IoFilter } from 'react-icons/io5';
 import { CgAddR } from 'react-icons/cg';

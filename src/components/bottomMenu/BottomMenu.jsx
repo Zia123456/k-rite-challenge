@@ -1,4 +1,4 @@
-import React from 'react';
+import './bottomMenu.css';
 import { GrRadialSelected } from 'react-icons/gr';
 import { IoArchiveOutline } from 'react-icons/io5';
 import { AiOutlineDelete } from 'react-icons/ai';

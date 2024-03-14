@@ -1,4 +1,4 @@
-import React from 'react';
+import './product.css';
 import { HiOutlineChatBubbleLeftRight } from 'react-icons/hi2';
 
 const Product = ({ product, key }) => {

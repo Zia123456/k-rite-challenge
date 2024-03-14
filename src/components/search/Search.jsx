@@ -1,9 +1,11 @@
-import React from 'react';
+import './search.css';
 import PropTypes from 'prop-types';
+import { FiSearch } from 'react-icons/fi';
 
 function Search({ search, handleSearch }) {
   return (
     <div className="search-container">
+      <FiSearch />
       <input
         onChange={handleSearch}
         className="search-input"

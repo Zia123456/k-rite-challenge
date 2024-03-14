@@ -1,6 +1,5 @@
 import { useState } from 'react';
 import './products.css';
-import { IoMdAdd } from 'react-icons/io';
 import { FaWix } from 'react-icons/fa';
 import { FaShopify } from 'react-icons/fa';
 import { FaPaypal } from 'react-icons/fa';
@@ -14,6 +13,7 @@ import AddData from '../addData/AddData';
 import BottomMenu from '../bottomMenu/BottomMenu';
 import Product from '../product/Product';
 import NotFound from '../notFound/NotFound';
+import TableHead from '../tableHead/TableHead';
 
 const products = [
   {
@@ -152,25 +152,7 @@ const Products = () => {
         <Header search={search} handleSearch={handleSearch} />
         <Menu />
         <table>
-          <thead>
-            <tr>
-              <th className="brand-container">
-                <div className="brand-check">
-                  <input type="checkbox" name="" id="" />
-                  <p>Brand</p>
-                </div>
-                <IoMdAdd />
-              </th>
-              <th>Description</th>
-              <th>Members</th>
-              <th>Categories</th>
-              <th>Tags</th>
-              <th>Next meeting</th>
-              <th>
-                <IoMdAdd />
-              </th>
-            </tr>
-          </thead>
+          <TableHead />
           <tbody>
             {filtered?.map((item, index) => (
               <Product product={item} key={index} />

@@ -1,4 +1,4 @@
-import React from 'react';
+import './addProduct.css';
 
 import { MdOutlineCountertops } from 'react-icons/md';
 import { IoMdAdd } from 'react-icons/io';

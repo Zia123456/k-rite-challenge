@@ -1,0 +1,33 @@
+.menu-container {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  margin-top: 0;
+}
+
+.left-menu {
+  margin-left: -20px;
+  display: flex;
+  flex-direction: row;
+  column-gap: 10px;
+  flex: 6;
+}
+
+.small-box {
+  height: 20px;
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+  padding: 4px;
+  border: thin solid #c4cbd1;
+  border-radius: 8px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  background-color: rgb(242, 242, 243);
+}
+
+.right-menu {
+  margin-left: 100px;
+  display: flex;
+  column-gap: 10px;
+  flex: 2;
+}

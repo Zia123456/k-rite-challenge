@@ -1,0 +1,65 @@
+.first-column-container {
+  display: flex;
+  align-items: center;
+}
+
+.chat-number-container {
+  display: flex;
+  align-items: center;
+  column-gap: 2px;
+  flex: 2;
+}
+
+.member-profile-container {
+  padding-left: 10px;
+}
+
+.member-profile {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  margin-left: -10px;
+}
+
+td {
+  border: 1px solid #dddddd;
+  text-align: start;
+  padding-left: 10px;
+}
+
+.description-container {
+  width: 180px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.category-container {
+  display: flex;
+  column-gap: 10px;
+}
+
+.category {
+  background-color: chartreuse;
+  border-radius: 6px;
+  padding: 2px;
+}
+
+.td-tags-container {
+  display: flex;
+  column-gap: 10px;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.tag {
+  background-color: #dddddd;
+  border-radius: 6px;
+  padding: 2px;
+}
+
+.next-meeting {
+  background-color: chartreuse;
+  border-radius: 6px;
+  padding: 2px;
+}

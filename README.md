@@ -51,14 +51,6 @@ I used the following tech stacks
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- LIVE DEMO -->
-
-## 🚀 Live Demo <a name="live-demo"></a>
-
-- [Live Demo Link](https://magical-cendol-0725d4.netlify.app/)
-- [Introduction Video](https://drive.google.com/file/d/1y0pZxdADLsREKqpXZLzOv62EyOVqnh8J/view?usp=sharing)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
 
@@ -83,7 +75,7 @@ Clone this repository to your desired folder:
 
 - Open your terminal
 - Navigate to the directory where you want to clone the project.
-- git clone https://github.com/Zia123456/k-rite-challenge.git
+- git clone [https://github.com/Zia123456/k-rite-challenge.git](https://github.com/Zia123456/k-rite-challenge.git)
 
 <!--
 Example commands:
